@@ -1,7 +1,7 @@
 .PHONY: chunk unchunk init
 
 init: unchunk
-
+	@echo " [INFO] Done Initialisation"
 chunk: 
 	python scripts/chunker.py chunk ./lib/onnxruntime_providers_cuda.dll --output ./lib/ 
 
