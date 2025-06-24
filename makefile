@@ -1,4 +1,4 @@
 .PHONY: init
 
-init: unchunk
+init:
 	@echo " [INFO] Done Initialisation"
