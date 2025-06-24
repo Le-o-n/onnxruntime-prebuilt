@@ -2,7 +2,9 @@
 .DEFAULT_GOAL := help
 
 PLATFORM ?=
-BRANCH := onnxruntime-$(PLATFORM)
+VERSION ?= 1.22.0
+BRANCH := onnxruntime-$(PLATFORM)-$(VERSION)
+
 
 help:
 	@echo "Usage: make init PLATFORM=<platform>"
