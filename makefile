@@ -1,4 +1,5 @@
 .PHONY: init help
+.DEFAULT_GOAL := help
 
 PLATFORM ?=
 BRANCH := onnxruntime-$(PLATFORM)
