@@ -1,0 +1,2 @@
+OS,ARC,VER
+win,x86,1.22.0
