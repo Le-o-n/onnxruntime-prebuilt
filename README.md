@@ -16,7 +16,7 @@ This repo offers just that — a clean setup with optional chunked binaries (to 
 
 ## 📦 Structure
 
-Each platform and release version is available as a separate branch:
+Each usable platform (only video game OS and linux because fuck mac) with release version available as individual branches:
 ```
 onnxruntime-<platform>-<version>
 ```
