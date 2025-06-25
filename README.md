@@ -65,7 +65,7 @@ I split them into `.partNN` chunks and reassemble them on initialisation.
 
 - `make`
 - `python3.7+` (tested on 3.11)
-- Works on Linux, macOS, Windows (via WSL or Git Bash)
+- Works on Linux and Windows
 
 ---
 
